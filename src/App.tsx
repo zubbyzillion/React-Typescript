@@ -37,7 +37,7 @@ function App() {
   <div className="App">
     <Greet name="Zubby" isLoggedIn={false} />
     <Person name={personName} />
-    {/* <PersonList names={nameList} /> */}
+    <PersonList names={nameList} />
       <Status status="loading" />
       <Oscar>
     <Heading>Oscar goes to di Caprio</Heading>
