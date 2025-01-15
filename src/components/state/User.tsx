@@ -6,11 +6,12 @@ type AuthUser = {
 }
 
 export const User = () => {
-    const [user, setUser] = useState<AuthUser | null>(null)
+    const [user, setUser] = useState<AuthUser | null>(null) // useState Future Value
+    // const [user, setUser] = useState<AuthUser>({} as AuthUser) // useState type assertion
     const handleLogin = () => {
         setUser({
-            name: "Zubby Zillion"
-            email: "zubbycodes@gmaill.com"
+            name: "Zubby Zillion",
+            email: "zubbycodes@gmail.com",
         })
     }
     const handleLogout = () => { 
